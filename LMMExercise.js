@@ -29,6 +29,7 @@ console.log(randomNumber);
 
 // BONUS 6
 
+console.log(" Let It Go!".repeat(2).trim().toUpperCase());
 
 // BONUS 7A
 let reindeers="Reindeers are better than people."
@@ -40,7 +41,9 @@ console.log(reindeers);
 // BONUS 8
 console.log(Math.sqrt(2));
 let num=2
-console.log(num**(1/2));
+console.log(2**(1/2));
 
 // BONUS 9
-console.log(Math.floor(Math.random() * 17) + 7);
+let newRandomNumber=Math.floor(Math.random() * 17) + 7;
+
+console.log(newRandomNumber);
